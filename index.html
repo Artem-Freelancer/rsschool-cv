@@ -4,9 +4,130 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Artem</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+	<link rel="icon" href="assets/website_icon.ico">
+	<title>CV</title>
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	Hello, world!!!
+	<header class="header">
+		<div class="container">
+			<div class="nav">
+				<ul class="nav__list">
+					<li class="nav__item">
+						<a href="#profile" class="nav__link">Profile</a>
+					</li>
+					<li class="nav__item">
+						<a href="#contacts" class="nav__link">Contacts</a>
+					</li>
+					<li class="nav__item">
+						<a href="#about-me" class="nav__link">About me</a>
+					</li>
+					<li class="nav__item">
+						<a href="#code" class="nav__link">Code</a>
+					</li>
+					<li class="nav__item">
+						<a href="#education" class="nav__link">Education</a>
+					</li>
+					<li class="nav__item">
+						<a href="#courses" class="nav__link">Courses</a>
+					</li>
+					<li class="nav__item">
+						<a href="#english" class="nav__link">English</a>
+					</li>
+					<li class="nav__item">
+						<a href="#skills" class="nav__link">Skills</a>
+					</li>
+					<li class="nav__item">
+						<a href="#projects" class="nav__link">Projects</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</header>
+
+	<main class="main">
+		<div class="container main-container">
+			<section class="profile" id="profile">
+				<img src="assets/img/avatar.png" alt="Avatar" class="profile__avatar">
+				<div class="profile__about-me">
+					<h1 class="profile__title">Artem Kostin</h1>
+					<div class="profile__line"></div>
+					<p class="profile__subtitle">JUNIOR FRONT-END DEVELOPER</p>
+				</div>
+			</section>
+
+			<section class="contacts" id="contacts">
+				<h2 class="contacts__title">Contacts</h2>
+				<ul class="contacts__items">
+					<li class="contacts__item">Orel, Russia</li>
+					<li class="contacts__item">Email: <a href="mailto:artemkostin.17.10.98@gmail.com">artemkostin.17.10.98@gmail.com</a></li>
+					<li class="contacts__item">Github: <a href="https://github.com/Artem-Freelancer">Artem-Freelancer</a></li>
+					<li class="contacts__item">Discord: <a href="https://discord.com/invite/zUr7wWYPXE">ArtemKos#7486</a></li>
+				</ul>
+			</section>
+	
+			<section class="about-me" id="about-me">
+				<h2 class="about-me__title">About me</h2>
+				<p class="about-me__text">I live in the city of Orel and am currently looking for a job in the IT field. I am able to work with a large amount of information, take a responsible approach to each case and learn quickly enough. I pay close attention to details. Ready to complete any task assigned to me.</p>
+			</section>
+	
+			<section class="code" id="code">
+				<h2 class="code__title">Code</h2>
+				<code class="code__function">
+					function multiply(a, b){<br>
+					return a * b
+				</code>
+			</section>
+	
+			<section class="education" id="education">
+				<h2 class="education__title">EDUCATION</h2>
+				<div class="education__text">Branch of the Federal State Budgetary Educational Institution of Higher Education "Petersburg State University of Communications of Emperor Alexander I" in Orel</div>
+			</section>
+	
+			<section class="courses" id="courses">
+				<h2 class="courses__title">Courses</h2>
+				<ul class="courses__items">
+					<li class="courses__item">Freelancer for life - <a href="https://www.youtube.com/watch?v=yJcCKuxfb2o&list=PLM6XATa8CAG4F9nAIYNS5oAiPotxwLFIrab_channel=%D0%A4%D1%80%D1%96%D0%BB%D0%B0%D0%BD%D1%81%D0%B5%D1%80%D0%BF%D0%BE%D0%B6%D0%B8%D1%82%D1%82%D1%8E">HTML+CSS+JS</a></li>
+					<li class="courses__item">Beonmax - <a href="https://beonmax.com/courses/javascript/">Java scripts</a></li>
+					<li class="courses__item">Learning java scripts - <a href="https://learn.javascript.ru/">learn.javascript</a></li>
+				</ul>
+			</section>
+	
+			<section class="english" id="english">
+				<h2 class="english__title">English</h2>
+				<div class="english__text">English at level A2</div>
+			</section>
+
+			<section class="skills" id="skills">
+				<h2 class="skills__title">Skills</h2>
+				<ul class="skills__items">
+					<li class="skills__item">Web-development: <span>HTML5, CSS3, JavaScript, SCSS</span></li>
+					<li class="skills__item">Version control: <span>GIT, Github</span></li>
+					<li class="skills__item">Graphics: <span>Figma</span></li>
+				</ul>
+			</section>
+
+			<section class="projects" id="projects">
+				<h2 class="projects__title">Projects</h2>
+				<ul class="projects__items">
+					<li class="projects__item"><a href="https://Artem-Freelancer.github.io/rsschool-cv/">HTML - RS_SCHOOL</a></li>
+					<li class="projects__item"><a href="https://artem-freelancer.github.io/rsschool-cv/cv">Markdown - RS_SCHOOL</a></li>
+				</ul>
+			</section>
+		</div>
+	</main>
+
+	<footer class="footer">
+		<div class="container basement">
+			<div class="basement__info">
+				© 2022
+				<a href="https://github.com/Artem-Freelancer" class="basement__github">Artem-Freelancer</a>
+			</div>
+			<a href="https://rs.school/js/" class="basement__logo"></a>
+		</div>
+	</footer>
 </body>
 </html>
